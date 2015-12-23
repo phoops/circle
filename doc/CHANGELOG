@@ -1,7 +1,22 @@
 == Redmine Circle theme
 
-Copyright (C) 2011-2014 Kirill Bezrukov
+Copyright (C) 2011-2015 Kirill Bezrukov
 http://www.redminecrm.com/
+
+== 2015-10-13 v2.0.2
+
+* Disable relative content for Agile board assignee movements
+
+== 2015-10-06 v2.0.1
+
+* Z-index fixes
+
+== 2015-09-17 v2.0.0
+
+* Hide sidebar button (no need Hide Sidebar plugin anymore)
+* Add hidden project menu items to the dropdown menu
+* Add hidden top menu items to the dropdown menu
+* Responsive styles
 
 == 2014-04-09 v1.0.2
 
