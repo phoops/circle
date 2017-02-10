@@ -7,14 +7,14 @@
 /**********************************************************/
 
 #header > h1 {
-	background: url(../images/logo.png) no-repeat 20px 13px;
+	background: url(../images/logo_phoops.png) no-repeat 20px 13px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#header > h1 {
-		background-image: url(../images/logo2x.png);
-		background-size: 38px 40px;
+		background-image: url(../images/logo_phoops2x.png);
+		background-size: 40px 40px;
 	}
 }
 
@@ -23,7 +23,9 @@ only screen and (min-device-pixel-ratio: 2) {
 /**********************************************************/
 
 body {
-	color: #3d454c;
+	/*original theme primary-color: #3d454c;*/
+	/*original theme accent-color: #2996cc;*/
+	color: #2f3d39;
 	font-size: 14px;
 	line-height: 1.3;
 	font-family: "helvetica neue",helvetica,arial,sans-serif;
@@ -39,7 +41,7 @@ input, textarea, select {
 }
 
 a, a:link, a:visited {
-	color: #2996cc;
+	color: #de216a;
 }
 
 #main {
@@ -71,7 +73,7 @@ div#content {
 }
 
 #footer a:hover {
-	color: #2996cc;
+	color: #de216a;
 	text-decoration: none;
 }
 
@@ -98,7 +100,7 @@ h2 {
 
 #sidebar a.selected {
 	background-color: #fafafa;
-	color: #3d454c;
+	color: #2f3d39;
 	line-height: inherit;
 	padding: inherit;
 	margin-left: inherit;
@@ -162,7 +164,7 @@ img.gravatar {
 #main-menu {
 	left: 0px;
 	width: 100%;
-	background-color: #3d454c;
+	background-color: #2f3d39;
 	font-weight: 500;
 	position: relative;
   height: auto;
@@ -212,7 +214,7 @@ img.gravatar {
 
 /* new object + button */
 #main-menu li a.new-object {
-  background-color: #3d454c;
+  background-color: #2f3d39;
 }
 
 #main-menu .menu-children {
@@ -231,14 +233,14 @@ img.gravatar {
 }
 
 #main-menu .menu-children li a {
-  background: #3d454c;
+  background: #2f3d39;
   color: #9da2a6;
   font-weight: bold;
 }
 
 #main-menu .menu-children li a:hover {
   color: #fff;
-  background: #3d454c;
+  background: #2f3d39;
 }
 
 /* tab buttons*/
@@ -249,7 +251,7 @@ img.gravatar {
   right: 0;
   width: 60px;
   height: 100%;
-  background: #3d454c;
+  background: #2f3d39;
   bottom: 0;
   border: 0px;
 }
@@ -263,13 +265,13 @@ img.gravatar {
   width: 25px;
   bottom: 0px;
   border-radius: 0px;
-  background: #3d454c;
+  background: #2f3d39;
   color: #9da2a6;
   font-size: 18px;
   font-weight: bold;
 }
 #main-menu button.tab-left:hover, #main-menu button.tab-right:hover {
-  background-color: #3d454c;
+  background-color: #2f3d39;
   color: #fff;
 }
 #main-menu button.tab-left:focus, #main-menu button.tab-right:focus {
@@ -292,7 +294,7 @@ img.gravatar {
 }
 
 #main-menu button.tab-left.disabled, #main-menu button.tab-right.disabled {
-  background-color: #3d454c;
+  background-color: #2f3d39;
   cursor: unset;
   color: #777;
 }
@@ -415,7 +417,7 @@ div#content .contacts-tags-edit ul.tagit {
 /* Context Menu */
 /**********************************************************/
 div#content .context-menu-selection {
-	background-color: #2996cc !important;
+	background-color: #de216a !important;
 }
 
 div#content #context-menu ul {
@@ -428,7 +430,7 @@ div#content #context-menu li a {
 
 div#content #context-menu li:hover {
 	background: #f2f4f5;
-	color: #3d454c;
+	color: #2f3d39;
 	border: 1px solid #f2f4f5;
 	border-radius: 0px;
 }
@@ -473,11 +475,11 @@ div.modal {
 
 .ui-dialog.modal .ui-widget-header {
 	border: 0px;
-	color: #3d454c;
+	color: #2f3d39;
 	background: #fafafa;
 	padding-top: 18px;
 	padding-bottom: 18px;
-	color: #3d454c;
+	color: #2f3d39;
 	font-size: 24px;
 	font-weight: normal;
 	text-align: center;
@@ -510,13 +512,13 @@ div.modal {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	background: #f2f4f5;
-	color: #3d454c;
+	color: #2f3d39;
 	border: 1px solid #f2f4f5;
 	border-radius: 0px;
 }
 
 .ui-widget-header .ui-datepicker-title {
-	color: #3d454c;
+	color: #2f3d39;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -652,7 +654,7 @@ input[type="submit"].button-small {
 #ajax-modal p.buttons input[type="submit"],
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close,
 input[type="submit"] {
-	background: #2996cc;
+	background: #de216a;
 	border-color: transparent;
 	color: #fff;
 }
@@ -675,7 +677,7 @@ input[type="submit"].button-small:hover {
 	-webkit-box-shadow: rgba(0,0,0,0.08) 0 1px 1px;
 	-moz-box-shadow: rgba(0,0,0,0.08) 0 1px 1px;
 	box-shadow: rgba(0,0,0,0.08) 0 1px 1px;
-	color: #3d454c;
+	color: #2f3d39;
 	-webkit-transition-duration: 0.05s;
 	-moz-transition-duration: 0.05s;
 	-o-transition-duration: 0.05s;
@@ -702,7 +704,7 @@ input[type="password"],
 fieldset#filters td.values input {
 	padding: 1px 10px;
 	background-color: #fff;
-	color: #3d454c;
+	color: #2f3d39;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -717,7 +719,7 @@ input[type="password"]:focus,
 select:focus,
 textarea:focus,
 fieldset#filters td.values input:focus {
-	border-color:#2996cc;
+	border-color:#de216a;
 	outline: none;
 }
 
@@ -737,7 +739,7 @@ select {
 	z-index: 1;
 	padding: 4px 30px 4px 10px;
 	background-color: #fff;
-	color: #3d454c;
+	color: #2f3d39;
 	cursor: pointer;
 	border: 1px solid #e0e2e3;
 	background: url(../images/select.png) no-repeat right #fff;
@@ -786,7 +788,7 @@ select[multiple="multiple"] {
 
 textarea {
 	background-color: #fff;
-	color: #3d454c;
+	color: #2f3d39;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -942,7 +944,7 @@ div.details {padding: 20px !important;}
 @media all and (max-width: 899px)
 {
   body #header {
-    background-color: #3d454c;
+    background-color: #2f3d39;
   }
 
   body .flyout-menu {
