@@ -1,4 +1,5 @@
-circle
+circle Redmine Theme
 ======
 
-http://redminecrm.com/pages/circle-theme
+Based on RedmineUP cirlce theme:
+https://www.redmineup.com/pages/themes/circle
